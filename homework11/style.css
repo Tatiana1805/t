@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+} 
+
+form {
+    display: contents;
+}
+
+.messages {
+    width: 302px;
+    height: 400px;
+    background-color: rgb(203, 247, 232);
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border: 1px solid;
+    text-align: center;
+}
+
+button {
+    width: 302px;
+}
+
+.system-message {
+    color: rgb(14 14 14 / 37%);
+    margin: 10px;
+}
